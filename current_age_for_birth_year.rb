@@ -1,3 +1,5 @@
-def current_age_for_birth_year(birth_year)
-  2003 - birth_year
+def greeting(language="Ruby", name)
+  puts "Hello, #{name}. We heard you are a great #{language} programmer."
 end
+
+greeting("billy")
